@@ -32,10 +32,35 @@ a{
 p{
   font-size: 20px;
 }
-/**/
-/**/
-/**/
-/**/
+/*Para todos os elementos <a> determine os seguintes estilos:
+| Determine que ao passar o mouse os hyperlinks tenham sua decoração alterada para underline.
+*/
+a:HOVER{
+  text-decoration: underline;
+}
+/*Para todas as imagens determine os seguintes estilos:
+|Largura máxima de 100%;
+*/
+img{
+  max-width: 100%;
+}
+/*Para a classe cabecalho determine os seguintes estilos:
+| Largura de 100%.
+| Altura de 48px.
+|Margem do topo de 40px.
+| Margem do rodapé de 40px.
+*/
+.cabecalho{
+  width: 100%;
+  height: 48px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+/*Para a classe logo determine os seguintes estilos:
+| Faça o elemento flutuar para a esquerda.*/
+.logo{
+  float: left;
+}
 /**/
 /**/
 /**/
