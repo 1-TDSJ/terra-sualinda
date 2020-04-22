@@ -61,9 +61,45 @@ img{
 .logo{
   float: left;
 }
-/**/
-/**/
-/**/
-/**/
+/*Para a classe menu determine os seguintes estilos:
+| Faça o elemento flutuar para a direita.
+*/
+.menu{
+  float: right;
+}
+/*Para os items da lista determine os seguintes estilos:
+| Faça com que a lista flutue para a direita.
+| Coloque os itens em linha.
+| Tamanho do texto 14px.
+| Margem esquerda 24px;
+| Margem topo 12px;
+| Retire o estilo de lista.
+*/
+.menu li{
+  float: right;
+  display: inline;
+  font-size: 14px;
+  margin-left: 24px;
+  margin-top: 12px;
+  list-style: none;
+}
+/*Para os hyperlinks dos itens da lista determine os seguintes estilos.
+| coloque a fonte do texto em 20px.
+| coloque a cor do texto como #999.
+*/
+.menu li a{
+  font-size: 20px;
+  color: #999;
+}
+/*Para a classe banner determine os seguintes estilos:
+| Altura 450px.
+| Margem rodapé 55px.
+| Posição relativa.
+*/
+.banner{
+  height: 450px;
+  margin-bottom: 55px;
+  position: relative;
+}
 /**/
 /**/
